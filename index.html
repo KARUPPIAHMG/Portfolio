@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuppiah Mohan | HR Operations & Data Analytics</title>
+    <meta name="description" content="Portfolio of Karuppiah Mohan, an MBA professional specializing in HR Operations, Workforce Management, and Data Analytics.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Minimalist Art Aesthetic */
+        :root {
+            --bg-color: #fafafa;
+            --text-primary: #1a1a1a;
+            --text-secondary: #555555;
+            --accent-color: #2c3e50;
+            --border-color: #eaeaea;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            margin-bottom: 60px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .location {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .tag {
+            background: var(--bg-color);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+
+        ul.academic-list {
+            list-style: none;
+        }
+
+        ul.academic-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+        }
+
+        ul.academic-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .contact-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: color 0.2s ease;
+        }
+
+        .contact-links a:hover {
+            color: #0077b5; /* LinkedIn Blue */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Karuppiah Mohan</h1>
+            <p class="subtitle">MBA Candidate | HR Operations & Data Analytics</p>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i> Bengaluru, India
+            </div>
+            <div class="contact-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Profile</h2>
+            <p style="color: var(--text-secondary); line-height: 1.8;">
+                Working professional completing an MBA with a strong focus on bridging human resources with data-driven decision-making. Passionate about leveraging technology, workforce management strategies, and analytics to optimize operations. Actively upskilling in modern tech ecosystems, including enrollment in the Google Cloud Gen AI Academy, to bring forward-thinking solutions to the technology sector.
+            </p>
+        </section>
+
+        <section>
+            <h2>Academic Projects & Research</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>MBA Final Project</h3>
+                    <p>Comprehensive evaluation focusing on <strong>employee engagement</strong> and <strong>recruitment processes</strong>. Analyzing methodologies to improve retention, streamline hiring pipelines, and elevate organizational culture.</p>
+                </div>
+                <div class="card">
+                    <h3>Analytics & Strategy</h3>
+                    <p>Conducted in-depth academic assessments and practical case studies in Business Analytics & Intelligence, Investment Analysis, and Strategic Management to drive operational efficiency.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Core Competencies</h2>
+            <div class="card">
+                <div class="tags">
+                    <span class="tag">HR Operations</span>
+                    <span class="tag">Workforce Management</span>
+                    <span class="tag">Data Analytics</span>
+                    <span class="tag">Human Capital Strategy</span>
+                    <span class="tag">Business Intelligence</span>
+                    <span class="tag">Generative AI Ethics</span>
+                    <span class="tag">Services Marketing & CRM</span>
+                    <span class="tag">Corporate Law</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
